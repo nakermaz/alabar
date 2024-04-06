@@ -1,10 +1,10 @@
-package com.alabar.backend.controller.domain;
+package com.alabar.backend.domain;
 
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Comment", schema = "alabar_backend")
-public class Comment {
+@Table(name = "Player", schema = "alabar_backend")
+public class Player {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
