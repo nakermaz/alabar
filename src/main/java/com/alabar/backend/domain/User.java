@@ -1,4 +1,4 @@
-package com.alabar.backend.controller.domain;
+package com.alabar.backend.domain;
 
 import jakarta.persistence.*;
 
