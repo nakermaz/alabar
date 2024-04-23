@@ -4,7 +4,6 @@ import com.alabar.backend.convertors.ConvertMainPageDTO;
 import com.alabar.backend.dto.movieDTO.ListMainPageDTO;
 import com.alabar.backend.dto.movieDTO.MainPageDTO;
 import com.alabar.backend.repository.MovieRepository;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

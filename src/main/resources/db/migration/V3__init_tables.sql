@@ -5,7 +5,7 @@ create table if not exists alabar_backend.movie (
     description varchar(5012) not null,
     release_date DATE not null ,
     age_restriction varchar(24) not null ,
-    format_movie varchar(64) not null
+    format_movie varchar(5012) not null
 );
 
 create table if not exists alabar_backend.genre (
