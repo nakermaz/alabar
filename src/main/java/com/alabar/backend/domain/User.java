@@ -1,11 +1,15 @@
 package com.alabar.backend.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Entity
 @Table(name = "User", schema = "alabar_backend")
+@Data
+@NoArgsConstructor
 public class User {
     @Id
     @Column(name = "id")

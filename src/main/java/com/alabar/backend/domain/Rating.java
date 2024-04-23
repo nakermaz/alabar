@@ -1,9 +1,13 @@
 package com.alabar.backend.domain;
 
 import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "Rating", schema = "alabar_backend")
+@Data
+@NoArgsConstructor
 public class Rating {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
