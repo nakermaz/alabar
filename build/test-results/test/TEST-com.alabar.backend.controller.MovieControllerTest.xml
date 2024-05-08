@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.alabar.backend.controller.MovieControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-04-23T16:07:01" hostname="MacBook-Air-Nakermaz.local" time="0.011">
+<testsuite name="com.alabar.backend.controller.MovieControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-08T12:37:54" hostname="MacBook-Air-Nakermaz.local" time="0.012">
   <properties/>
-  <testcase name="getMainPageTest()" classname="com.alabar.backend.controller.MovieControllerTest" time="0.011">
+  <testcase name="testGetMainPage()" classname="com.alabar.backend.controller.MovieControllerTest" time="0.012">
     <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.alabar.backend.serivce.MovieService.getMainPage()&quot; because &quot;this.movieService&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.alabar.backend.serivce.MovieService.getMainPage()&quot; because &quot;this.movieService&quot; is null
-	at com.alabar.backend.controller.MovieControllerTest.getMainPageTest(MovieControllerTest.java:37)
+	at com.alabar.backend.controller.MovieControllerTest.testGetMainPage(MovieControllerTest.java:34)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
